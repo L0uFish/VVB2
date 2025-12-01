@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Turborepo Tailwind CSS starter
 
 This Turborepo starter is maintained by the Turborepo core team.
@@ -56,3 +57,6 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+=======
+# VVB2
+>>>>>>> 6a40848fed0ed5a1caace8326b3c0bbd0fb78f06
