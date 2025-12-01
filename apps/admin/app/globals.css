@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0f0a10;
+  --muted: #4c3b49;
+  --shell: #f7f1f6;
+  --panel: #fff9fd;
+  --line: #e8e0eb;
+  --accent: #8a4c7d;
+  --accent-strong: #2f1126;
+  --highlight: #f5d7e3;
+  --font-display: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #fff9fd 0%, #f2ecf5 100%);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

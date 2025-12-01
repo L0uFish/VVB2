@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0f0a10;
+  --ink-muted: #4c3b49;
+  --shell: #f7f1f6;
+  --surface: #fff9fd;
+  --rose-soft: #f5d7e3;
+  --rose-mid: #d7a3e3;
+  --rose-deep: #8a4c7d;
+  --wine: #2f1126;
+  --edge: #e8e0eb;
+  --halo: rgba(245, 215, 227, 0.38);
+  --font-display: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 20%, #ffeaf7, transparent 40%),
+    radial-gradient(circle at 80% 10%, #f0dafd, transparent 38%),
+    linear-gradient(180deg, #fff9fd 0%, #f3ecf5 100%);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--rose-soft);
+  color: var(--wine);
+}
